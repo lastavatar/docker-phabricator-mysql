@@ -22,5 +22,5 @@ RUN     bash /opt/mysql/download.sh
 ADD     setup.sh /opt/mysql/setup.sh
 RUN     bash /opt/mysql/setup.sh
 
-VOLUME  ["/var/lib/mysql"]
+#VOLUME  ["/var/lib/mysql"]
 CMD     mysqld_safe
